@@ -8,6 +8,17 @@ public class User {
     private String address;
     private Long age;
 
+    public User() {
+    }
+
+    public User(Long id, Long dni, String name, String address, Long age) {
+        this.id = id;
+        this.dni = dni;
+        this.name = name;
+        this.address = address;
+        this.age = age;
+    }
+
     public void setId(Long id) {
         this.id = id;
     }

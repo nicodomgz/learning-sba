@@ -1,10 +1,10 @@
-package com.learning.sba.infra.dto;
+package com.learning.sba.infra.dto.request;
 
+import lombok.AllArgsConstructor;
 import lombok.Getter;
-import lombok.RequiredArgsConstructor;
 
 @Getter
-@RequiredArgsConstructor
+@AllArgsConstructor
 public class UserDto {
     private Long id;
     private Long dni;
